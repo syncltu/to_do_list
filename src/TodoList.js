@@ -59,6 +59,8 @@ deleteItem(key){
         </div>
         <TodoItems entries={this.state.items}
                     delete={this.deleteItem}
+
+                    
                     />
       </div>
     );
